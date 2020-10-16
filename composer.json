@@ -1,0 +1,20 @@
+{
+    "name": "byrnes2014\/geoip",
+    "description": "Package description here.",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Byrnes2014\\GeoIP\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Byrnes2014\\GeoIP\\ServiceProvider"
+            ]
+        }
+    }
+}
